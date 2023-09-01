@@ -54,7 +54,7 @@
 </head>
 <body>
     <header>
-    <img src="D:\R E S E A R C H @ PSU-2022\Author_pics\Mudasir.png" alt="Dr. Mudasir Ahmad Wani" width="150" height="150">
+    <img src="D:\Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="150" height="150">
     <h1>Dr. Mudasir Ahmad Wani</h1>
     <p> <div id="changingText"><span id="typedText"></span></div> </p>
 </header>
