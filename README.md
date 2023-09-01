@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -54,7 +53,7 @@
     <header>
     <img src="D:\R E S E A R C H @ PSU-2022\Author_pics\Mudasir.png" alt="Dr. Mudasir Ahmad Wani" width="150" height="150">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <p><div id="changingText"></div> </p>
+    <p> <div id="changingText"><span id="typedText"></span></div> </p>
 </header>
 
     <nav>
@@ -110,19 +109,42 @@
 
 
  <script>
-        // Array of text to cycle through
-        var textArray = ["Text 1", "Text 2", "Text 3"];
-        var currentIndex = 0; // Index of the currently displayed text
+    var textArray = ["Text 1", "Text 2", "Text 3"];
+    var currentIndex = 0;
+    var currentText = ""; // Current text being typed
+    var charIndex = 0; // Index of the current character
 
-        // Function to update the text
-        function changeText() {
-            document.getElementById("changingText").textContent = textArray[currentIndex];
-            currentIndex = (currentIndex + 1) % textArray.length; // Loop through the array
+    function typeText() {
+        var typedTextElement = document.getElementById("typedText");
+
+        if (charIndex < textArray[currentIndex].length) {
+            currentText += textArray[currentIndex].charAt(charIndex);
+            typedTextElement.textContent = currentText;
+            charIndex++;
+            setTimeout(typeText, 50); // Adjust the typing speed as needed
+        } else {
+            // Typing is complete, wait for a moment and then erase
+            setTimeout(eraseText, 1000); // Wait for 1 second before erasing
         }
+    }
 
-        // Call the changeText function to start text cycling
-        setInterval(changeText, 2000); // Change text every 2 seconds (adjust the time as needed)
-    </script>
+    function eraseText() {
+        var typedTextElement = document.getElementById("typedText");
+
+        if (currentText.length > 0) {
+            currentText = currentText.slice(0, -1);
+            typedTextElement.textContent = currentText;
+            setTimeout(eraseText, 30); // Adjust the erasing speed as needed
+        } else {
+            // Erasing is complete, move to the next text
+            currentIndex = (currentIndex + 1) % textArray.length;
+            setTimeout(typeText, 500); // Wait for 0.5 second before typing the next text
+        }
+    }
+
+    // Start typing the first text
+    typeText();
+</script>
 
 
 
