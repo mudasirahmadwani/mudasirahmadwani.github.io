@@ -80,6 +80,7 @@
 	<div id="changingText">
         <span id="typedText"></span>
     </div>
+	<div id="changingText">This text will change.</div>
 </header>
 
     <nav>
