@@ -51,16 +51,16 @@
             padding: 10px 0;
         }
 		
-		.container {
+	.container {
             position: relative; /* Container is a reference for absolute positioning */
-            height: 100px; /* Set an appropriate height for the container */
+            /* height: 100px; /* Set an appropriate height for the container */
         }
 
         .changingText {
             position: absolute;
-            top: 50%; /* Position at vertical center */
-            left: 50%; /* Position at horizontal center */
-            transform: translate(-50%, -50%); /* Center the text using transform */
+            /*top: 50%; /* Position at vertical center */
+            /*left: 50%; /* Position at horizontal center */
+            /*transform: translate(-50%, -50%); /* Center the text using transform */
             /* Your styles for the changing text span */
         }		
 		
@@ -71,7 +71,7 @@
 	
     <img src="Mudasir_picture.png" alt="Your Nam">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <p>  <div id="changingText"><span id="typedText"></span></div> </p>
+    <p>  <div id="changingText"><span id="typedText"></span> </div> </p>
 </header>
 
     <nav>
