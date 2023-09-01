@@ -55,7 +55,7 @@
 <body>
     <header>
 	<img src="D:/Mudasir_picture.png" alt="Your Name">
-    <img src="Mudasir_picture.png" alt="Your Nameees">
+    <img src="Mudasir_picture.png" alt="Your Nameee">
     <h1>Dr. Mudasir Ahmad Wani</h1>
     <p> <div id="changingText"><span id="typedText"></span></div> </p>
 </header>
