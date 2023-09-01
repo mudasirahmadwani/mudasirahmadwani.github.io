@@ -14,7 +14,6 @@
             padding: 0;
         }
         header {
-			position: absolute;
             background-color: #444;
             color: #fff;
             text-align: center;
@@ -25,8 +24,7 @@
             font-size: 36px;
         }
         header p {
-            position: absolute;
-			font-size: 18px;
+            font-size: 18px;
         }
         nav {
             background-color: #444;
@@ -51,8 +49,8 @@
             color: #fff;
             padding: 10px 0;
         }
-		
-		
+	
+	
     </style>
 </head>
 <body>
@@ -60,7 +58,7 @@
 	
     <img src="Mudasir_picture.png" alt="Your Nam">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <p><div id="changingText"><span id="typedText"></span></div> </p>
+    <!-- <p><div id="changingText"><span id="typedText"></span></div> </p> -->
 	<div id="changingText"> <span id="typedText"></span>
     </div>
 </header>
