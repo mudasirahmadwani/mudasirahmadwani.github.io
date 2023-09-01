@@ -57,7 +57,7 @@
 	
     <img src="Mudasir_picture.png" alt="Your Nam">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <p> <span> <div id="changingText"><span id="typedText"></span></div> <\span> </p>
+    <p>  <div "kuch" id="changingText"><span id="typedText"></span></div> </p>
 </header>
 
     <nav>
