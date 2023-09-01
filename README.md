@@ -61,7 +61,8 @@
         .changingText {
             position: absolute; /* Position it absolutely within the container */
             /* Adjust top, left, right, or bottom properties as needed */
-        }
+			z-index: 1;
+		}
 		
     </style>
 </head>
