@@ -172,7 +172,7 @@
         
         <section id="contact">
             <h2>Contact</h2>
-            <p>You can reach me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+            <p>You can reach me at <a href="mailto:mwani@psu.edu.sa">mwani@psu.edu.sa</a>.</p>
         </section>
     </main>
 
