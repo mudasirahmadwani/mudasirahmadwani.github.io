@@ -52,25 +52,7 @@
             padding: 10px 0;
         }
 		
-	/* Container styles */
-        .container {
-            position: relative; /* Establish a positioning context for absolute positioning */
-            /* Other styles for the container */
-        }
-
-    /* Changing text div styles */
-        .changingText {
-            position: absolute; /* Position it absolutely within the container */
-            /* Adjust top, left, right, or bottom properties as needed */
-			z-index: 1;
-		}
-		nav {
-			background-color: #444;
-			text-align: center;
-			position: relative; /* Ensure the navigation bar respects the changingText div */
-			z-index: 2; /* Ensure the navigation bar is above the changingText */
-        }
-		
+	
     </style>
 </head>
 <body>
