@@ -1,9 +1,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    /*<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Academic Research</title>
-    <link rel="stylesheet" href="styles.css"> <!-- You can add your custom CSS here -->
+    /*<link rel="stylesheet" href="styles.css"> <!-- You can add your custom CSS here -->
     <style>
         /* Add inline CSS for specific styling, if necessary */
         p    {
