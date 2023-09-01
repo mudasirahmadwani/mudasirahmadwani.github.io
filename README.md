@@ -66,19 +66,18 @@
     </nav>
 
     <main>
-    //////////////////////////// About Me ////////////////////////////////////////////////////////
+  
         <section id="about">
             <h2>About</h2>
             <p>Mudasir Ahmad Wani is currently working as a Researcher in Natural Language Processing (NLP) at Prince Sultan University, KSA. He has served as a Lecturer and Researcher at the Department of Information Security and Communication Technology (IIK) at the Norwegian University of Science and Technology (NTNU), Norway. He pursued his postdoctoral research at the Norwegian Biometrics Laboratory, NTNU, Norway and He is the recipient of the Alain Bensoussan Fellowship award under the European Research Consortium for Informatics and Mathematics (ERCIM), Sophia Antipolis Cedex, France. He obtained his Ph.D. from Jamia Millia Islamia (A Central University), New Delhi, India in 2019 in Computer Science.  He holds a Master's in Computer Applications (MCA) and M.Phil. (Data Mining) from the University of Kashmir (UoK) in 2012 and 2014 respectively. His research focuses on the extraction and analysis of social data, and the application of different statistical, machine/deep learning, and NLP techniques in developing prediction models.</p>
         </section>
-////////////////////////////// Research /////////////////////////////////////////////////////
+
 
         <section id="research">
             <h2>Research</h2>
             <p>Highlight your research projects, publications, and any other relevant information.</p>
         </section>
 
-//////////////////////Publications /////////////////////////////////////////////////////////////
         
         <section id="publications">
     <h2>Publications</h2>
@@ -89,7 +88,7 @@
     </ul>
         </section>
 
-//////////////////////Projects /////////////////////////////////////////////////////////////
+
 
 <section id="projects">
     <h2>Projects</h2>
