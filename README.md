@@ -1,8 +1,16 @@
 <html lang="en">
 <head>
+<<<<<<< HEAD
     
        <title>Your Name - Academic Research</title>
         <style>
+=======
+    <meta charset="UTF-8">
+    
+    <title>Your Name - Academic Research</title>
+   
+    <style>
+>>>>>>> d5336b0e47bbe9c0b629b9942dbe9857ce7fe1ad
         p    {
              text-align: justify;
         }		
