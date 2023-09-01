@@ -116,7 +116,7 @@
     </footer>
 ////////////////////////////////////////////////////////////////////////////////////////////////
 <script>
-    var textArray = ["Text 1", "Text 2", "Text 3"];
+    var textArray = ["Academic Researcher", "Editor", "Reviewer", "Teacher"];
     var currentIndex = 0;
     var currentText = ""; // Current text being typed
     var charIndex = 0; // Index of the current character
