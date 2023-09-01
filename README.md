@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="styles.css"> <!-- You can add your custom CSS here -->
     <style>
         /* Add inline CSS for specific styling, if necessary */
-        body {
+        p    {
+             text-align: justify;
+        }		
+		body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
