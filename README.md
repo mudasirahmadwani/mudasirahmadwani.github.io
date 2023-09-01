@@ -19,8 +19,7 @@
             color: #fff;
             text-align: center;
             padding: 20px 0;
-			position: absolute;
-			
+						
         }
         header h1 {
             margin: 0;
