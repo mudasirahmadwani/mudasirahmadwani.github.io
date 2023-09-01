@@ -88,24 +88,20 @@
             <strong>IEEE Transactions on Computational Social Systems</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication Link</a>
         </li>
         <li>
-            <h3>Robust Benchmark for Propagandist Text Detection and Mining High-Quality Data</h3>
-            <p><strong>Mathematics</strong></p>
-            <p><strong>Link:</strong> <a href="https://www.mdpi.com/2227-7390/11/12/2668" target="_blank">Publication 2 Link</a></p>
+            Wani, M. A., ELAffendi, M., Shakil, K. A., Abuhaimed, I. M., Nayyar, A., Hussain, A., & Abd El-Latif, A. A. (2023). Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation. IEEE Transactions on Computational Social Systems.
+            <strong>IEEE Transactions on Computational Social Systems</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication Link</a>
         </li>
         <li>
-            <h3>Classifying European Court of Human Rights Cases Using Transformer-Based Techniques</h3>
-            <p><strong>IEEE Access</strong></p>
-            <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10130544" target="_blank">Publication 2 Link</a></p>
+            Wani, M. A., ELAffendi, M., Shakil, K. A., Abuhaimed, I. M., Nayyar, A., Hussain, A., & Abd El-Latif, A. A. (2023). Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation. IEEE Transactions on Computational Social Systems.
+            <strong>IEEE Transactions on Computational Social Systems</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication Link</a>
         </li>
 		<li>
-            <h3>Depression Screening in Humans With AI and Deep Learning Techniques</h3>
-            <p><strong>IEEE Transactions on Computational Social Systems</strong></p>
-            <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/9904737" target="_blank">Publication 2 Link</a></p>
+            Wani, M. A., ELAffendi, M., Shakil, K. A., Abuhaimed, I. M., Nayyar, A., Hussain, A., & Abd El-Latif, A. A. (2023). Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation. IEEE Transactions on Computational Social Systems.
+            <strong>IEEE Transactions on Computational Social Systems</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication Link</a>
         </li>
 		<li>
-            <h3>Robust Benchmark for Propagandist Text Detection and Mining High-Quality Data</h3>
-            <p><strong>Mathematics</strong></p>
-            <p><strong>Link:</strong> <a href="https://www.mdpi.com/2227-7390/11/12/2668" target="_blank">Publication 2 Link</a></p>
+            Wani, M. A., ELAffendi, M., Shakil, K. A., Abuhaimed, I. M., Nayyar, A., Hussain, A., & Abd El-Latif, A. A. (2023). Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation. IEEE Transactions on Computational Social Systems.
+            <strong>IEEE Transactions on Computational Social Systems</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication Link</a>
         </li>
 		</ul>
 	</section>
@@ -122,7 +118,56 @@
 
 <section id="teaching">
     <h2>Teaching</h2>
-    <p>Provide information about the courses you have taught or are currently teaching.</p>
+    <table>
+    <tr>
+        <th>Subject</th>
+        <th>Specific</th>
+        <th>Labs</th>
+        <th>Level</th>
+        <th>Year</th>
+        <th>University/Institute</th>
+    </tr>
+    <tr>
+        <td>Cybersecurity: Cryptography, Authentication, Network Security, System Security</td>
+        <td>Python, MatLab</td>
+        <td>Graduate students</td>
+        <td>2022-Present</td>
+        <td>PSU, KSA</td>
+    </tr>
+    <tr>
+        <td>Cybersecurity: Cryptography, Authentication, Network Security, System Security</td>
+        <td>MatLab, Python</td>
+        <td>MIS, MISD, MISEXB</td>
+        <td>2020-2022</td>
+        <td>NTNU, Norway</td>
+    </tr>
+    <tr>
+        <td>Unix operating System, Information Security</td>
+        <td>Python, C, C#, Unix and Shell</td>
+        <td>M.Sc. Tech</td>
+        <td>2018-2019</td>
+        <td>JMI, India</td>
+    </tr>
+    <tr>
+        <td>Operating System, Software Engineering, Data Structures and Computer Networks</td>
+        <td>MatLab, Python, R, and Java</td>
+        <td>MCA</td>
+        <td>2015-2019</td>
+        <td>JMI, India</td>
+    </tr>
+    <tr>
+        <td>Fundamental Computers, Hardware, Basics of Algorithms</td>
+        <td>C, C++</td>
+        <td>B.Sc. (Hons)/ B.Sc. (Applied mathematics)</td>
+        <td>2018-2019</td>
+        <td>JMI, India</td>
+    </tr>
+</table>
+	
+	
+	
+	
+	
 </section>
         
         <section id="contact">
