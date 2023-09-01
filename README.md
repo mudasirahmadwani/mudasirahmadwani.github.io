@@ -90,7 +90,7 @@
             <p><strong>Mathematics</strong></p>
             <p><strong>Link:</strong> <a href="https://www.mdpi.com/2227-7390/11/12/2668" target="_blank">Publication 2 Link</a></p>
         </li>
-       <li>
+        <li>
             <h3>Classifying European Court of Human Rights Cases Using Transformer-Based Techniques</h3>
             <p><strong>IEEE Access</strong></p>
             <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10130544" target="_blank">Publication 2 Link</a></p>
@@ -107,7 +107,6 @@
         </li>
 		</ul>
 	</section>
-
 
 
 <section id="projects">
