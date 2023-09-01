@@ -59,21 +59,27 @@
     <nav>
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#contact">Contact</a>
         <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <main>
+    //////////////////////////// About Me ////////////////////////////////////////////////////////
         <section id="about">
-            <h2>About Me</h2>
+            <h2>About</h2>
             <p>Mudasir Ahmad Wani is currently working as a Researcher in Natural Language Processing (NLP) at Prince Sultan University, KSA. He has served as a Lecturer and Researcher at the Department of Information Security and Communication Technology (IIK) at the Norwegian University of Science and Technology (NTNU), Norway. He pursued his postdoctoral research at the Norwegian Biometrics Laboratory, NTNU, Norway and He is the recipient of the Alain Bensoussan Fellowship award under the European Research Consortium for Informatics and Mathematics (ERCIM), Sophia Antipolis Cedex, France. He obtained his Ph.D. from Jamia Millia Islamia (A Central University), New Delhi, India in 2019 in Computer Science.  He holds a Master's in Computer Applications (MCA) and M.Phil. (Data Mining) from the University of Kashmir (UoK) in 2012 and 2014 respectively. His research focuses on the extraction and analysis of social data, and the application of different statistical, machine/deep learning, and NLP techniques in developing prediction models.</p>
         </section>
+////////////////////////////// Research /////////////////////////////////////////////////////
 
         <section id="research">
             <h2>Research</h2>
             <p>Highlight your research projects, publications, and any other relevant information.</p>
         </section>
+
+//////////////////////Publications /////////////////////////////////////////////////////////////
+        
         <section id="publications">
     <h2>Publications</h2>
     <ul>
@@ -82,6 +88,8 @@
         <!-- Add more publications as needed -->
     </ul>
         </section>
+
+//////////////////////Projects /////////////////////////////////////////////////////////////
 
 <section id="projects">
     <h2>Projects</h2>
@@ -106,9 +114,8 @@
     <footer>
         <p>&copy; 2023 Your Name</p>
     </footer>
-
-
- <script>
+////////////////////////////////////////////////////////////////////////////////////////////////
+<script>
     var textArray = ["Text 1", "Text 2", "Text 3"];
     var currentIndex = 0;
     var currentText = ""; // Current text being typed
@@ -138,6 +145,8 @@
         } else {
             // Erasing is complete, move to the next text
             currentIndex = (currentIndex + 1) % textArray.length;
+            charIndex = 0; // Reset charIndex
+            currentText = ""; // Reset currentText
             setTimeout(typeText, 500); // Wait for 0.5 second before typing the next text
         }
     }
@@ -146,6 +155,7 @@
     typeText();
 </script>
 
+//////////////////////////////////////////////////////////////////////
 
 
     
