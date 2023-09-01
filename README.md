@@ -1,30 +1,79 @@
-# mudasirahmadwani.github.io
-# h1 heading 
-# h2 heading 
-
-
-  <!-- Optional: Add a favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Academic Research</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can add your custom CSS here -->
+    <style>
+        /* Add inline CSS for specific styling, if necessary */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Your Name</h1>
         <p>Academic Researcher</p>
-        <!-- Add any additional header information, such as navigation links or a brief bio -->
     </header>
 
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
             <p>Provide a brief introduction about yourself, your academic background, and research interests.</p>
         </section>
 
-        <section>
+        <section id="research">
             <h2>Research</h2>
             <p>Highlight your research projects, publications, and any other relevant information.</p>
         </section>
 
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
             <p>You can reach me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
         </section>
@@ -32,25 +81,6 @@
 
     <footer>
         <p>&copy; 2023 Your Name</p>
-        <!-- Add any additional footer information, such as links to social media profiles or academic institutions -->
     </footer>
 </body>
 </html>
-Here are a few things to consider when creating your academic research website:
-
-Customize the content: Replace "Your Name," "youremail@example.com," and any placeholder text with your own information.
-
-Styling: You can create a custom CSS stylesheet (referenced in the <link> tag) to style your website. This allows you to control the layout, colors, fonts, and other visual aspects.
-
-Add content: Under the "Research" section, you can include details about your research projects, publications, and any other relevant academic achievements.
-
-Domain and GitHub Pages: To host your website on GitHub Pages with a custom domain, you'll need to configure your repository settings. GitHub provides detailed instructions on how to set this up.
-
-Additional pages: You can create additional HTML files for different sections of your website and link to them using navigation menus.
-
-Remember to regularly update your website with your latest research and academic accomplishments to keep it current and informative. Good luck with your academic research website!
-
-
-
-
-
