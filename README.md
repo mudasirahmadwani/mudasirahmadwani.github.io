@@ -20,8 +20,7 @@
             text-align: center;
             padding: 20px 0;
 			position: absolute;
-			top: 5px; /* Adjust the top position as needed */
-			left: 5px; /* Adjust the left position as needed */
+			
         }
         header h1 {
             margin: 0;
