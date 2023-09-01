@@ -185,14 +185,8 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Mudasir Wani</p>
     </footer>
-
-
-
-
-
-
-    
+   
 </body>
 </html>
