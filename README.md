@@ -58,7 +58,7 @@
 <body>
 <header>
 	
-    <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="350" height="220">
+    <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="350">
     <h1>Dr. Mudasir Ahmad Wani</h1>
     
 </header>
