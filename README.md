@@ -81,9 +81,8 @@
 			<h2>Publications</h2>
 		<ul>
         <li>
-            <h3>Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation</h3>
-            <p><strong>IEEE Transactions on Computational Social Systems</strong> </p>
-            <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication 1 Link</a></p>
+            Wani, M. A., ELAffendi, M., Shakil, K. A., Abuhaimed, I. M., Nayyar, A., Hussain, A., & Abd El-Latif, A. A. (2023). Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation. IEEE Transactions on Computational Social Systems.
+            <p><strong>IEEE Transactions on Computational Social Systems</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication Link</a></p>
         </li>
         <li>
             <h3>Robust Benchmark for Propagandist Text Detection and Mining High-Quality Data</h3>
