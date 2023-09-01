@@ -1,10 +1,8 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>Your Name - Academic Research</title>
-    <!--  <link rel="stylesheet" href="styles.css"> You can add your custom CSS here -->
-    <style>
+    
+       <title>Your Name - Academic Research</title>
+        <style>
         p    {
              text-align: justify;
         }		
@@ -58,10 +56,8 @@
 <body>
 <header>
 	
-    <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="350" height="270">
+    <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="350" height="220">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <!-- <p><div id="changingText"><span id="typedText"></span></div> </p> -->
-	<!-- <div id="changingText"> <span id="typedText"></span>  </div>-->
     
 </header>
 	
