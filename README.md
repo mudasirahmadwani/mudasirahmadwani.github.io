@@ -77,10 +77,10 @@
     <img src="Mudasir_picture.png" alt="Your Nam">
     <h1>Dr. Mudasir Ahmad Wani</h1>
     <!-- <p><div id="changingText"><span id="typedText"></span></div> </p> -->
+	<br>
 	<div id="changingText">
         <span id="typedText"></span>
     </div>
-	<div id="changingText">This text will change.</div>
 </header>
 
     <nav>
