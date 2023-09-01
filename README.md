@@ -54,12 +54,14 @@
     <header>
     <img src="D:\R E S E A R C H @ PSU-2022\Author_pics\Mudasir.png" alt="Dr. Mudasir Ahmad Wani" width="150" height="150">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <p>Academic Researcher</p>
+    <p><div id="changingText"></div> </p>
 </header>
 
     <nav>
         <a href="#about">About</a>
         <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -105,5 +107,25 @@
     <footer>
         <p>&copy; 2023 Your Name</p>
     </footer>
+
+
+ <script>
+        // Array of text to cycle through
+        var textArray = ["Text 1", "Text 2", "Text 3"];
+        var currentIndex = 0; // Index of the currently displayed text
+
+        // Function to update the text
+        function changeText() {
+            document.getElementById("changingText").textContent = textArray[currentIndex];
+            currentIndex = (currentIndex + 1) % textArray.length; // Loop through the array
+        }
+
+        // Call the changeText function to start text cycling
+        setInterval(changeText, 2000); // Change text every 2 seconds (adjust the time as needed)
+    </script>
+
+
+
+    
 </body>
 </html>
