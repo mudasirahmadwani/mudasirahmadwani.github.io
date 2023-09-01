@@ -78,11 +78,12 @@
     <h1>Dr. Mudasir Ahmad Wani</h1>
     <!-- <p><div id="changingText"><span id="typedText"></span></div> </p> -->
 	<br>
+
+</header>
 	<div id="changingText">
         <span id="typedText"></span>
     </div>
-</header>
-
+	
     <nav>
         <a href="#about">About</a>
         <a href="#research">Research</a>
