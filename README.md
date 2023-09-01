@@ -77,15 +77,36 @@
             <p>Highlight your research projects, publications, and any other relevant information.</p>
         </section>
 
-        
-        <section id="publications">
-    <h2>Publications</h2>
-    <ul>
-        <li>Publication 1: Title, Authors, Journal/Conference, Year</li>
-        <li>Publication 2: Title, Authors, Journal/Conference, Year</li>
-        <!-- Add more publications as needed -->
-    </ul>
-        </section>
+	<section id="publications">
+			<h2>Publications</h2>
+		<ul>
+        <li>
+            <h3>Toxic Fake News Detection and Classification for Combating COVID-19 Misinformation</h3>
+            <p><strong>IEEE Transactions on Computational Social Systems</strong> </p>
+            <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10151899" target="_blank">Publication 1 Link</a></p>
+        </li>
+        <li>
+            <h3>Robust Benchmark for Propagandist Text Detection and Mining High-Quality Data</h3>
+            <p><strong>Mathematics</strong></p>
+            <p><strong>Link:</strong> <a href="https://www.mdpi.com/2227-7390/11/12/2668" target="_blank">Publication 2 Link</a></p>
+        </li>
+       <li>
+            <h3>Classifying European Court of Human Rights Cases Using Transformer-Based Techniques</h3>
+            <p><strong>IEEE Access</strong></p>
+            <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10130544" target="_blank">Publication 2 Link</a></p>
+        </li>
+		<li>
+            <h3>Depression Screening in Humans With AI and Deep Learning Techniques</h3>
+            <p><strong>IEEE Transactions on Computational Social Systems</strong></p>
+            <p><strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/9904737" target="_blank">Publication 2 Link</a></p>
+        </li>
+		<li>
+            <h3>Robust Benchmark for Propagandist Text Detection and Mining High-Quality Data</h3>
+            <p><strong>Mathematics</strong></p>
+            <p><strong>Link:</strong> <a href="https://www.mdpi.com/2227-7390/11/12/2668" target="_blank">Publication 2 Link</a></p>
+        </li>
+		</ul>
+	</section>
 
 
 
