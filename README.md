@@ -14,6 +14,7 @@
             padding: 0;
         }
         header {
+			position: absolute;
             background-color: #444;
             color: #fff;
             text-align: center;
@@ -24,7 +25,8 @@
             font-size: 36px;
         }
         header p {
-            font-size: 18px;
+            position: absolute;
+			font-size: 18px;
         }
         nav {
             background-color: #444;
@@ -50,39 +52,19 @@
             padding: 10px 0;
         }
 		
-	/* Container styles */
-        .container {
-            position: relative; /* Establish a positioning context for absolute positioning */
-            /* Other styles for the container */
-        }
-
-    /* Changing text div styles */
-        .changingText {
-            position: absolute; /* Position it absolutely within the container */
-            /* Adjust top, left, right, or bottom properties as needed */
-			z-index: 1;
-		}
-		nav {
-			background-color: #444;
-			text-align: center;
-			position: relative; /* Ensure the navigation bar respects the changingText div */
-			z-index: 2; /* Ensure the navigation bar is above the changingText */
-        }
 		
     </style>
 </head>
 <body>
-    <header>
+<header>
 	
     <img src="Mudasir_picture.png" alt="Your Nam">
     <h1>Dr. Mudasir Ahmad Wani</h1>
-    <!-- <p><div id="changingText"><span id="typedText"></span></div> </p> -->
-	<br>
-
-</header>
-	<div id="changingText">
-        <span id="typedText"></span>
+    <p><div id="changingText"><span id="typedText"></span></div> </p>
+	<div id="changingText"> <span id="typedText"></span>
     </div>
+</header>
+	
 	
     <nav>
         <a href="#about">About</a>
