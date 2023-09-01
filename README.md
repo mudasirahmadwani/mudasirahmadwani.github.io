@@ -59,7 +59,7 @@
 <body>
 <header>
 	
-    <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="350" height="350">
+    <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="350" height="300">
     <h1>Dr. Mudasir Ahmad Wani</h1>
     <!-- <p><div id="changingText"><span id="typedText"></span></div> </p> -->
 	<!-- <div id="changingText"> <span id="typedText"></span>  </div>-->
