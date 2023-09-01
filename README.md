@@ -189,45 +189,6 @@
     </footer>
 
 
-<script>
-    var textArray = ["Scholarly Researcher", "Editorial Maestro", "Exemplary Reviewer", "Pedagogical Luminary"];
-    var currentIndex = 0;
-    var currentText = ""; // Current text being typed
-    var charIndex = 0; // Index of the current character
-
-    function typeText() {
-        var typedTextElement = document.getElementById("typedText");
-
-        if (charIndex < textArray[currentIndex].length) {
-            currentText += textArray[currentIndex].charAt(charIndex);
-            typedTextElement.textContent = currentText;
-            charIndex++;
-            setTimeout(typeText, 50); // Adjust the typing speed as needed
-        } else {
-            // Typing is complete, wait for a moment and then erase
-            setTimeout(eraseText, 1000); // Wait for 1 second before erasing
-        }
-    }
-
-    function eraseText() {
-        var typedTextElement = document.getElementById("typedText");
-
-        if (currentText.length > 0) {
-            currentText = currentText.slice(0, -1);
-            typedTextElement.textContent = currentText;
-            setTimeout(eraseText, 30); // Adjust the erasing speed as needed
-        } else {
-            // Erasing is complete, move to the next text
-            currentIndex = (currentIndex + 1) % textArray.length;
-            charIndex = 0; // Reset charIndex
-            currentText = ""; // Reset currentText
-            setTimeout(typeText, 500); // Wait for 0.5 second before typing the next text
-        }
-    }
-
-    // Start typing the first text
-    typeText();
-</script>
 
 
 
