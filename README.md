@@ -14,10 +14,14 @@
             padding: 0;
         }
         header {
+		
             background-color: #444;
             color: #fff;
             text-align: center;
             padding: 20px 0;
+			position: absolute;
+			top: 10px; /* Adjust the top position as needed */
+			left: 10px; /* Adjust the left position as needed */
         }
         header h1 {
             margin: 0;
