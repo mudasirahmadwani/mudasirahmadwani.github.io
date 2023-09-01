@@ -50,6 +50,20 @@
             color: #fff;
             padding: 10px 0;
         }
+		
+		.container {
+            position: relative; /* Container is a reference for absolute positioning */
+            height: 100px; /* Set an appropriate height for the container */
+        }
+
+        .changingText {
+            position: absolute;
+            top: 50%; /* Position at vertical center */
+            left: 50%; /* Position at horizontal center */
+            transform: translate(-50%, -50%); /* Center the text using transform */
+            /* Your styles for the changing text span */
+        }		
+		
     </style>
 </head>
 <body>
