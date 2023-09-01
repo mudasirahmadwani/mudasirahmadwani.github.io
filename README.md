@@ -52,9 +52,10 @@
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Academic Researcher</p>
-    </header>
+    <img src="D:\R E S E A R C H @ PSU-2022\Author_pics\Mudasir.png" alt="Dr. Mudasir Ahmad Wani" width="150" height="150">
+    <h1>Dr. Mudasir Ahmad Wani</h1>
+    <p>Academic Researcher</p>
+</header>
 
     <nav>
         <a href="#about">About</a>
@@ -65,14 +66,36 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Provide a brief introduction about yourself, your academic background, and research interests.</p>
+            <p>Mudasir Ahmad Wani is currently working as a Researcher in Natural Language Processing (NLP) at Prince Sultan University, KSA. He has served as a Lecturer and Researcher at the Department of Information Security and Communication Technology (IIK) at the Norwegian University of Science and Technology (NTNU), Norway. He pursued his postdoctoral research at the Norwegian Biometrics Laboratory, NTNU, Norway and He is the recipient of the Alain Bensoussan Fellowship award under the European Research Consortium for Informatics and Mathematics (ERCIM), Sophia Antipolis Cedex, France. He obtained his Ph.D. from Jamia Millia Islamia (A Central University), New Delhi, India in 2019 in Computer Science.  He holds a Master's in Computer Applications (MCA) and M.Phil. (Data Mining) from the University of Kashmir (UoK) in 2012 and 2014 respectively. His research focuses on the extraction and analysis of social data, and the application of different statistical, machine/deep learning, and NLP techniques in developing prediction models.</p>
         </section>
 
         <section id="research">
             <h2>Research</h2>
             <p>Highlight your research projects, publications, and any other relevant information.</p>
         </section>
+        <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+        <li>Publication 1: Title, Authors, Journal/Conference, Year</li>
+        <li>Publication 2: Title, Authors, Journal/Conference, Year</li>
+        <!-- Add more publications as needed -->
+    </ul>
+        </section>
 
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>Project 1: Title, Description, Year</li>
+        <li>Project 2: Title, Description, Year</li>
+        <!-- Add more projects as needed -->
+    </ul>
+</section>
+
+<section id="teaching">
+    <h2>Teaching</h2>
+    <p>Provide information about the courses you have taught or are currently teaching.</p>
+</section>
+        
         <section id="contact">
             <h2>Contact</h2>
             <p>You can reach me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
