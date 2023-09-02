@@ -11,11 +11,17 @@ const textOptions = [
 ];
 
 let currentIndex = 0;
+let charIndex = 0;
 
-// Function to change the text automatically
+// Function to change the text automatically with a cursor-style animation
 function changeTextAutomatically() {
-    displayText.textContent = textOptions[currentIndex];
-    currentIndex = (currentIndex + 1) % textOptions.length;
+    const currentText = textOptions[currentIndex];
+    displayText.textContent = currentText.substring(0, charIndex);
+    charIndex++;
+    if (charIndex > currentText.length) {
+        charIndex = 0;
+        currentIndex = (currentIndex + 1) % textOptions.length;
+    }
 }
 
 // Set an interval to change the text every 3 seconds (adjust as needed)
