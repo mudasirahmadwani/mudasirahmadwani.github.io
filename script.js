@@ -1,31 +1,14 @@
-// script.js
 
-const displayText = document.getElementById("displayText");
+    // Array of text to cycle through
+    var textArray = ["Text 1", "Text 2", "Text 3"];
+    var currentIndex = 0; // Index of the currently displayed text
 
-// Define an array of text options
-const textOptions = [
-    "Text option 1",
-    "Text option 2",
-    "Text option 3",
-    "Text option 4"
-];
-
-let currentIndex = 0;
-let charIndex = 0;
-
-// Function to change the text automatically with a cursor-style animation
-function changeTextAutomatically() {
-    const currentText = textOptions[currentIndex];
-    displayText.textContent = currentText.substring(0, charIndex);
-    charIndex++;
-    if (charIndex > currentText.length) {
-        charIndex = 0;
-        currentIndex = (currentIndex + 1) % textOptions.length;
+    // Function to update the text
+    function changeText() {
+        document.getElementById("changingText").textContent = textArray[currentIndex];
+        currentIndex = (currentIndex + 1) % textArray.length; // Loop through the array
     }
-}
 
-// Set an interval to change the text every 3 seconds (adjust as needed)
-setInterval(changeTextAutomatically, 3000);
+    // Call the changeText function to start text cycling
+    setInterval(changeText, 2000); // Change text every 2 seconds (adjust the time as needed)
 
-// Initial text
-changeTextAutomatically();
