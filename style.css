@@ -78,11 +78,13 @@
 			text-align: center;
 			margin-top: 50px;
 		}
-
 		#displayText {
 			font-size: 24px;
+			color: black;
+			white-space: nowrap; /* Prevent text from wrapping */
+			overflow: hidden; /* Hide overflowed text */
+			border-right: 3px solid #333; /* Add cursor-style border */
 		}
-
 		#changeButton {
 			padding: 10px 20px;
 			font-size: 16px;
