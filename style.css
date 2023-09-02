@@ -9,13 +9,14 @@
         }
         header {
             background-color: #FFFFFF;
-            color: #00FFFF;
+            color: #fff;
             text-align: center;
             padding: 40px 0;
         }
         header h1 {
             font-size: 2.5rem;
             margin: 10px 0;
+			color: #00FFFF;
         }
         header p {
             font-size: 1.2rem;
