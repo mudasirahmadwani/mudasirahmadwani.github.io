@@ -51,6 +51,12 @@
             color: #007BFF;
             margin-top: 0;
         }
+		 h2 {
+            font-size: 0.8rem;
+            color: #007BFF;
+            margin-top: 0;
+        }
+		
         p {
             font-size: 1.1rem;
             line-height: 1.6;
