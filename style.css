@@ -35,6 +35,7 @@
 		color: #fff; /* Set the text color */
 		padding: 20px; /* Add padding for content inside the controller */
 		overflow-y: auto; /* Add vertical scroll if content overflows */
+		z-index: 1; /* Set a higher z-index value */
 }
         nav a {
             text-decoration: none;
