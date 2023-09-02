@@ -24,19 +24,13 @@
 			color: black;
 			text-align: center;
         }
-        /* In your custom CSS file (styles.css) or inline CSS */
-		nav {
-		position: fixed; /* Make the navigation controller fixed */
-		top: 0; /* Position it at the top of the viewport */
-		left: 0; /* Position it at the left of the viewport */
-		width: 200px; /* Set the desired width */
-		height: 100%; /* Make it cover the full height of the viewport */
-		background-color: #333; /* Add a background color */
-		color: #fff; /* Set the text color */
-		padding: 20px; /* Add padding for content inside the controller */
-		overflow-y: auto; /* Add vertical scroll if content overflows */
-		z-index: 1; /* Set a higher z-index value */
-}
+        nav {
+            background-color: #333;
+            text-align: center;
+			font-size: 1.2rem;
+			width: 800px; /* Set the desired width */
+			height: 100px; /* Set the desired height */
+        }
         nav a {
             text-decoration: none;
             color: #fff;
@@ -107,3 +101,5 @@
 		} 
 
  </style>
+ 
+ 
