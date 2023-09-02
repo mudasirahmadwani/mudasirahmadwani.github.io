@@ -1,4 +1,3 @@
-<script>
     // Array of text to cycle through
     var textArray = ["Text 1", "Text 2", "Text 3"];
     var currentIndex = 0; // Index of the currently displayed text
@@ -11,4 +10,3 @@
 
     // Call the changeText function to start text cycling
     setInterval(changeText, 2000); // Change text every 2 seconds (adjust the time as needed)
-</script>
