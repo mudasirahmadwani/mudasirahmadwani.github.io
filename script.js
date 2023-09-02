@@ -1,3 +1,4 @@
+<script>
 
         // Array of text to cycle through
         var textArray = ["Text 1", "Text 2", "Text 3"];
@@ -48,3 +49,15 @@
 
     // Start typing the first text
     typeText();
+
+</script>
+
+
+
+
+
+
+
+
+
+
