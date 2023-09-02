@@ -28,6 +28,8 @@
             background-color: #333;
             text-align: center;
 			font-size: 1.2rem;
+			width: 200px; /* Set the desired width */
+			height: 100px; /* Set the desired height */
         }
         nav a {
             text-decoration: none;
