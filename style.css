@@ -14,16 +14,18 @@
             padding: 40px 0;
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 2.0rem;
             margin: 10px 0;
-			color: black;
+			color: #00FFFF;
         }
         header p {
-            font-size: 1.2rem;
+            font-size: 1.0rem;
+			color: black;
         }
         nav {
             background-color: #333;
             text-align: center;
+			font-size: 0.5rem;
         }
         nav a {
             text-decoration: none;
