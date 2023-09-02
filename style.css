@@ -19,6 +19,7 @@
 			color: #333;
         }
         header p {
+			font-family: "Courier New", Courier, monospace;
             font-size: 1.1rem;
 			color: black;
 			text-align: center;
