@@ -28,7 +28,7 @@
             background-color: #333;
             text-align: center;
 			font-size: 1.2rem;
-			width: 1300px; /* Set the desired width */
+			width: 1400px; /* Set the desired width */
 			height: 30px; /* Set the desired height */
         }
         nav a {
@@ -98,40 +98,42 @@
 		ul {
 			line-height: 1.5; /* Adjust the value as needed */
 		} 
-/* Floating Menu Styles */
-.floating-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px; /* Adjust the width as needed */
-    background-color: #007BFF; /* Background color for the menu */
-    padding: 20px;
-}
+		/* Floating Menu Styles */
+		.floating-menu {
+			position: fixed; /* Fixed position */
+			top: 0;
+			left: 0;
+			width: 200px; /* Adjust the width as needed */
+			height: 100%; /* Make the menu cover the entire viewport height */
+			background-color: #007BFF; /* Background color for the menu */
+			padding: 20px;
+			overflow-y: auto; /* Enable vertical scrolling for long menus */
+		}
 
-.floating-menu ul {
-    list-style: none;
-    padding: 0;
-}
+		.floating-menu ul {
+			list-style: none;
+			padding: 0;
+		}
 
-.floating-menu ul li {
-    margin-bottom: 10px; /* Adjust the spacing between menu items */
-}
+		.floating-menu ul li {
+			margin-bottom: 10px; /* Adjust the spacing between menu items */
+		}
 
-.floating-menu a {
-    text-decoration: none;
-    color: white; /* Text color for menu items */
-    display: block;
-    transition: background-color 0.3s;
-}
+		.floating-menu a {
+			text-decoration: none;
+			color: white; /* Text color for menu items */
+			display: block;
+			transition: background-color 0.3s;
+		}
 
-.floating-menu a:hover {
-    background-color: #0056b3; /* Background color on hover */
-}
+		.floating-menu a:hover {
+			background-color: #0056b3; /* Background color on hover */
+		}
 
-/* Content Section Styles */
-section {
-    margin: 20px; /* Add spacing to separate content from the menu */
-}
+		/* Content Section Styles */
+		section {
+			margin-left: 220px; /* Add spacing to separate content from the menu */
+		}
  </style>
  
  
