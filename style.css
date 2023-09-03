@@ -104,7 +104,7 @@
 			top: 20;
 			left: 0;
 			width: 100px; /* Adjust the width as needed */
-			height: 70%; /* Make the menu cover the entire viewport height */
+			height: 90%; /* Make the menu cover the entire viewport height */
 			background-color: #333;/* Background color for the menu */
 			padding: 20px;
 			overflow-y: auto; /* Enable vertical scrolling for long menus */
