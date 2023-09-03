@@ -101,7 +101,7 @@
 		/* Floating Menu Styles */
 		.floating-menu {
 			position: fixed; /* Fixed position */
-			top: 20px;
+			top: 70px;
 			left: 0;
 			width: 100px; /* Adjust the width as needed */
 			height: 90%; /* Make the menu cover the entire viewport height */
