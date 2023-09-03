@@ -1,6 +1,6 @@
 // Array of messages to display
 const messages = [
-    "Message 1",
+    "Message 11",
     "Message 2",
     "Message 3",
     "Message 4"
