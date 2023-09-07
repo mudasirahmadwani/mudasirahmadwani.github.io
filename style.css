@@ -30,6 +30,8 @@
 			font-size: 1.2rem;
 			width: 1400px; /* Set the desired width */
 			height: 30px; /* Set the desired height */
+			margin-left: 20px; /* Set the left margin to 20 pixels */
+			margin-right: 30px; /* Set the right margin to 20 pixels */
         }
         nav a {
             text-decoration: none;
@@ -44,8 +46,8 @@
             padding: 40px;
             width: 80%; /* Set the width to 100% to make it full-width */
 			max-width: none; /* Disable the maximum width, if any */
-			 margin-left: 20px; /* Set the left margin to 20 pixels */
-			margin-right: 20px; /* Set the right margin to 20 pixels */
+			margin-left: 20px; /* Set the left margin to 20 pixels */
+			margin-right: 30px; /* Set the right margin to 20 pixels */
             background-color: #fff;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 			font-size: 1.5rem;
