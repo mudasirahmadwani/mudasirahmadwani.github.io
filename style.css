@@ -111,6 +111,7 @@
 			color: #fff; /* Text color */
 			padding: 10px; /* Adjust padding as needed */
 			width: 100%; /* Full width of the viewport */
+			height: 10%; /* Full height of the viewport */
 			z-index: 100; /* Ensure it appears above other content */
 			display: flex; /* Use flexbox to arrange links horizontally */
 			justify-content: center; /* Center links horizontally */
