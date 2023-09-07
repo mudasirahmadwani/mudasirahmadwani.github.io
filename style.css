@@ -109,9 +109,9 @@
 			left: 0; /* Stick to the left edge of the viewport */
 			background-color: #333; /* Background color for the menu */
 			color: #fff; /* Text color */
-			padding: 5px; /* Adjust padding as needed */
+			padding: 8px; /* Adjust padding as needed */
 			width: 100%; /* Full width of the viewport */
-			height: 10%; /*  height of the viewport */
+			height: 8%; /*  height of the viewport */
 			z-index: 100; /* Ensure it appears above other content */
 			display: flex; /* Use flexbox to arrange links horizontally */
 			justify-content: center; /* Center links horizontally */
@@ -127,11 +127,11 @@
 		}
 
 		.floating-menu a {
-			text-decoration: none;
-			color: white; /* Text color for menu items */
-			display: block;
-			transition: background-color 0.3s;
+			text-decoration: none; /* Remove underlines from links */
+			color: #fff; /* Text color for links */
 			margin: 0 20px; /* Adjust the horizontal spacing between links */
+			flex: 1; /* Make each link occupy equal space */
+			text-align: center; /* Center text within each link */
 		}
 
 		.floating-menu a:hover {
