@@ -42,7 +42,7 @@
         }
         main {
             padding: 40px;
-            width: 100%; /* Set the width to 100% to make it full-width */
+            width: 80%; /* Set the width to 100% to make it full-width */
 			max-width: none; /* Disable the maximum width, if any */
 			margin: 0 auto;
             background-color: #fff;
