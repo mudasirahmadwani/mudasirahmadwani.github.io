@@ -107,10 +107,10 @@
 			position: fixed; /* Fixed position */
 			top: 0;
 			left: 0;
-			height: 90%; /* Make the menu cover the entire viewport height */
+			height: 100%; /* Make the menu cover the entire viewport height */
 			background-color: #333;/* Background color for the menu */
-			padding: 10px 20px; /* Adjust padding as needed */
-			width: 100%; /* Full width of the viewport */
+			padding: 10px; /* Adjust padding as needed */
+			width: 200px; /* Full width of the viewport */
 			z-index: 100; /* Ensure it appears above other content */
 		}
 
