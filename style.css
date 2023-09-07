@@ -109,9 +109,9 @@
 			left: 0; /* Stick to the left edge of the viewport */
 			background-color: #333; /* Background color for the menu */
 			color: #fff; /* Text color */
-			padding: 10px; /* Adjust padding as needed */
+			padding: 20px; /* Adjust padding as needed */
 			width: 100%; /* Full width of the viewport */
-			height: 10%; /* Full height of the viewport */
+			height: 10%; /*  height of the viewport */
 			z-index: 100; /* Ensure it appears above other content */
 			display: flex; /* Use flexbox to arrange links horizontally */
 			justify-content: center; /* Center links horizontally */
