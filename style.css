@@ -30,8 +30,8 @@
 			font-size: 1.2rem;
 			width: 1400px; /* Set the desired width */
 			height: 30px; /* Set the desired height */
-			margin-left: 20px; /* Set the left margin to 20 pixels */
-			margin-right: 30px; /* Set the right margin to 20 pixels */
+			margin-left: 10px; /* Set the left margin to 10 pixels */
+			margin-right: 10px; /* Set the right margin to 10 pixels */
         }
         nav a {
             text-decoration: none;
