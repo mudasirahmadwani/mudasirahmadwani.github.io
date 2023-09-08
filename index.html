@@ -38,6 +38,21 @@
         setInterval(changeText, 2000);
     </script>
 		
+		
+	<script>
+        window.onscroll = function() {
+            var leftNavigator = document.getElementById("leftNavigator");
+
+            // Show the left navigator when scrolling down, hide when at the top
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                leftNavigator.style.display = "block";
+            } else {
+                leftNavigator.style.display = "none";
+            }
+        };
+    </script>	
+		
+		
 	</header>
 
     <nav class="floating-menu">
@@ -52,7 +67,7 @@
 		<br>
     </nav>
 	
-	<div class="left-navigator">
+	<div class="left-navigator" id="leftNavigator">
 	   <img src="Mudasir_picture.png" alt="Dr. Mudasir Ahmad Wani" width="100">
 	   <br>
 		<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
