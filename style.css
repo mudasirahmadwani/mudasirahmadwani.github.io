@@ -147,25 +147,26 @@
 		/* Style for the left-side navigator */
 		/* Style for social media icons */
 		.left-navigator {
-			position: fixed; /* Fixed position */
-			top: 50%; /* Center vertically */
-			left: 0; /* Align to the left side */
-			transform: translateY(-50%); /* Adjust for vertical centering */
-			background-color: #333; /* Background color */
-			color: #fff; /* Text color */
-			padding: 20px; /* Add some padding */
-			z-index: 2; /* Ensure it's above the content */
+			position: fixed;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			display: none; /* Initially hidden */
 		}
 
 		.social-icon {
-			font-size: 24px; /* Adjust the size of the icons */
-			margin-right: 10px; /* Add some space between icons */
-			text-decoration: none; /* Remove underline from links */
-			color: #fff; /* Icon color */
+			font-size: 24px;
+			margin-bottom: 10px;
+			display: block;
+			color: #fff;
+			text-decoration: none;
 		}
 
 		.social-icon:hover {
-			color: #007BFF; /* Icon color on hover */
+			color: #007BFF;
 		}
  </style>
  
