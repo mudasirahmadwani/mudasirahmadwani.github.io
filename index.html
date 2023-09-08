@@ -40,22 +40,18 @@
 		
 		
 	<script>
-    var scrollCount = 0;
+        window.onscroll = function() {
+            var leftNavigator = document.getElementById("leftNavigator");
 
-    window.onscroll = function() {
-        var leftNavigator = document.getElementById("leftNavigator");
-
-        // Increase the scroll count on each scroll event
-        scrollCount++;
-
-        // Show the left navigator after two full wheel rotations (adjust as needed)
-        if (scrollCount >= 2) {
-            leftNavigator.style.display = "block";
-        } else {
-            leftNavigator.style.display = "none";
-        }
-    };
-</script>
+            // Show the left navigator when scrolling down, hide when at the top
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                leftNavigator.style.display = "block";
+            } else {
+                leftNavigator.style.display = "none";
+            }
+        };
+    </script>	
+		
 		
 	</header>
 
