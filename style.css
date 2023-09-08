@@ -144,6 +144,7 @@
 			margin-left: 220px; /* Add spacing to separate content from the menu */
 		}
 		/* Style for the left-side navigator */
+		/* Style for social media icons */
 		.left-navigator {
 			position: fixed; /* Fixed position */
 			top: 50%; /* Center vertically */
@@ -153,6 +154,17 @@
 			color: #fff; /* Text color */
 			padding: 20px; /* Add some padding */
 			z-index: 2; /* Ensure it's above the content */
+		}
+
+		.social-icon {
+			font-size: 24px; /* Adjust the size of the icons */
+			margin-right: 10px; /* Add some space between icons */
+			text-decoration: none; /* Remove underline from links */
+			color: #fff; /* Icon color */
+		}
+
+		.social-icon:hover {
+			color: #007BFF; /* Icon color on hover */
 		}
  </style>
  
