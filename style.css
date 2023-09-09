@@ -177,6 +177,28 @@
 			/* Add other styles as needed, such as width and height */
 		}
 		
+		.timeline {
+    position: relative;
+    border-left: 2px solid #007BFF; /* Vertical line color and thickness */
+    padding-left: 20px; /* Adjust this for spacing from the content */
+    margin-top: 20px; /* Adjust this for spacing from the previous section */
+}
+
+.marker {
+    position: relative;
+    margin-bottom: 20px; /* Adjust this for spacing between markers */
+}
+
+.date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007BFF; /* Date color */
+}
+
+.event {
+    font-size: 1rem;
+    margin-left: 10px; /* Adjust this for spacing between date and event */
+}
  </style>
  
  
