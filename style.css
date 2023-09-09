@@ -49,7 +49,7 @@
             padding: 10px;
             width: 80%; /* Set the width to 100% to make it full-width */
 			max-width: none; /* Disable the maximum width, if any */
-			margin-left: 20px; /* Set the left margin to 20 pixels */
+			/*margin-left: 20px; /* Set the left margin to 20 pixels */
 			margin-right: 30px; /* Set the right margin to 20 pixels */
 			margin-top: 0px; /* Adjust the value based on the height of your floating menu */
             background-color: #fff;
