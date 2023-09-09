@@ -46,7 +46,7 @@
             background-color: #007BFF;
         }
         main {
-            padding: 40px;
+            padding: 10px;
             width: 80%; /* Set the width to 100% to make it full-width */
 			max-width: none; /* Disable the maximum width, if any */
 			margin-left: 20px; /* Set the left margin to 20 pixels */
