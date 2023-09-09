@@ -114,7 +114,7 @@
 			left: 0; /* Stick to the left edge of the viewport */
 			background-color: #333; /* Background color for the menu */
 			color: #fff; /* Text color */
-			padding: 1px; /* Adjust padding as needed */
+			padding: 10px 10px; /* Adjust padding as needed */
 			width: 100%; /* Full width of the viewport */
 			height: 7%; /*  height of the viewport */
 			z-index: 100; /* Ensure it appears above other content */
