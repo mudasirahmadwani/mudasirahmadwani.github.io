@@ -176,43 +176,6 @@
 			border-radius: 50%;
 			/* Add other styles as needed, such as width and height */
 		}
-		
-	/* Define the style for the timeline */
-.timeline {
-    position: relative;
-    padding-left: 20px; /* Adjust this for spacing from the content */
-    margin-top: 20px; /* Adjust this for spacing from the previous section */
-}
-
-/* Create the marker circles */
-.timeline::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -6px; /* Adjust this for the marker's horizontal position */
-    width: 12px; /* Adjust the circle size */
-    height: 12px; /* Adjust the circle size */
-    background-color: #007BFF; /* Set the marker color */
-    border-radius: 50%; /* Create a circular shape */
-    transform: translateY(-50%); /* Vertically center the circle on the line */
-    z-index: 1; /* Ensure the circles are on top of the line */
-}
-
-.marker {
-    position: relative;
-    margin-bottom: 20px; /* Adjust this for spacing between markers */
-}
-
-.date {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #007BFF; /* Date color */
-}
-
-.event {
-    font-size: 1rem;
-    margin-left: 10px; /* Adjust this for spacing between date and event */
-}
  </style>
  
  
