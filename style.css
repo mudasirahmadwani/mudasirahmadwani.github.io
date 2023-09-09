@@ -51,7 +51,7 @@
 			max-width: none; /* Disable the maximum width, if any */
 			margin-left: 20px; /* Set the left margin to 20 pixels */
 			margin-right: 30px; /* Set the right margin to 20 pixels */
-			margin-top: 60px; /* Adjust the value based on the height of your floating menu */
+			margin-top: 0px; /* Adjust the value based on the height of your floating menu */
             background-color: #fff;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 			font-size: 1.5rem;
