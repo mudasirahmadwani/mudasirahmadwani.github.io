@@ -170,6 +170,10 @@
 		.social-icon:hover {
 			color: #007BFF;
 		}
+		img.circular-image {
+			border-radius: 50%;
+			/* Add other styles as needed, such as width and height */
+		}
  </style>
  
  
