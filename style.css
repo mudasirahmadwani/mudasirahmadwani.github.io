@@ -180,17 +180,10 @@
 	/* Style the flip card container */
 .flip-card {
   background-color: transparent;
-  width: 200px; /* Adjust the width as needed */
+  width: 300px; /* Adjust the width as needed */
   height: 300px; /* Adjust the height as needed */
   perspective: 1000px; /* Add perspective for 3D effect */
   border: 2px solid #333; /* Add a border */
-}
-
-/* CSS for flip cards */
-.flip-card {
-  width: 350px;
-  height: 355px;
-  perspective: 1000px;
 }
 
 .flip-card-inner {
