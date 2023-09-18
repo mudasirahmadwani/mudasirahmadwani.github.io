@@ -188,8 +188,8 @@
 
 /* CSS for flip cards */
 .flip-card {
-  width: 200px;
-  height: 260px;
+  width: 300px;
+  height: 360px;
   perspective: 1000px;
 }
 
@@ -225,6 +225,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Specify the font-family */
+  font-size: 16px; /* Set the font size as needed */
+  color: #333; /* Set the text color */
+  /*background-color: #fff; /* Set the background color */
+  padding: 10px; /* Add padding for spacing */
+}
 }
 
 /* Additional styling for images and text */
