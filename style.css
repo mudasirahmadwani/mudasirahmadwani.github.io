@@ -238,7 +238,11 @@
   padding: 10px;
 }
 
-		
+	.flip-card-container {
+  display: flex;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  gap: 20px; /* Adjust the gap between cards as needed */
+}	
 		
 		
 		
