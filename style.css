@@ -255,7 +255,13 @@
   gap: 20px; /* Adjust the gap between cards as needed */
 }	
 		
-		
+	 .card-text {
+		  position: absolute; /* Position the text absolutely */
+		  top: 20px; /* Adjust the top position as needed */
+		  left: 20px; /* Adjust the left position as needed */
+		  font-size: 18px; /* Set the font size */
+		  color: #333; /* Set the text color */
+	}
 		
  </style>
  
