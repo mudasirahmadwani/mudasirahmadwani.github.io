@@ -231,10 +231,9 @@
   /*background-color: #fff; /* Set the background color */
   padding: 10px; /* Add padding for spacing */
 }
-}
 
-		/* Additional styling for images and text */
-		/* CSS to contain the image within the flip card */
+/* Additional styling for images and text */
+/* CSS to contain the image within the flip card */
 	.flip-card img {
 	  max-width: 100%; /* Ensure the image does not exceed the width of its container */
 	  max-height: 100%; /* Ensure the image does not exceed the height of its container */
