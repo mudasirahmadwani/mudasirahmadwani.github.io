@@ -230,7 +230,7 @@
   color: #333; /* Set the text color */
   /*background-color: #fff; /* Set the background color */
   padding: 10px; /* Add padding for spacing */
-  max-height: 200px; /* Set a maximum height for the description */
+  /*max-height: 200px; /* Set a maximum height for the description */
   overflow-y: auto; /* Add vertical scroll if the description exceeds the max height */
 
 }
