@@ -226,21 +226,24 @@
   align-items: center;
   justify-content: center;
   font-family: "Comic Sans MS", cursive, sans-serif; /* Specify the font-family */
-  font-size: 16px; /* Set the font size as needed */
+  font-size: 12px; /* Set the font size as needed */
   color: #333; /* Set the text color */
   /*background-color: #fff; /* Set the background color */
   padding: 10px; /* Add padding for spacing */
 }
 }
 
-/* Additional styling for images and text */
-.flip-card img {
-  max-width: 100%;
-  max-height: 100%;
-}
+		/* Additional styling for images and text */
+		/* CSS to contain the image within the flip card */
+	.flip-card img {
+	  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+	  max-height: 100%; /* Ensure the image does not exceed the height of its container */
+	  width: auto; /* Allow the image to scale proportionally based on the container's width */
+	  height: auto; /* Allow the image to scale proportionally based on the container's height */
+	}
 
 .flip-card p {
-  font-size: 16px;
+  font-size: 12px;
   padding: 10px;
 }
 
