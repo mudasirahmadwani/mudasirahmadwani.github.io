@@ -189,7 +189,7 @@
 /* CSS for flip cards */
 .flip-card {
   width: 350px;
-  height: 390px;
+  height: 355px;
   perspective: 1000px;
 }
 
